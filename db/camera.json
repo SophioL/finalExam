@@ -1,0 +1,32 @@
+[
+          {
+            "id": 1,
+            "image" : "./arrimini.png",
+            "name": "ArriCam LT",
+            "brand": "Arri",
+            "sensor_size": "Super 35",
+            "max_resolution": "2.7K",
+            "price": 14999.99
+          },
+          {
+            "id": 2,
+            "image" : "./arriminilf.png",
+            "name": "ArriCam ST",
+            "brand": "Arri",
+            "sensor_size": "Super 35",
+            "max_resolution": "2.7K",
+            "price": 11999.99
+          },
+          {
+            "id": 3,
+            "image" : "./blackmagic.png",
+            "name": "ArriCam 35-III",
+            "brand": "Arri",
+            "sensor_size": "35mm",
+            "max_resolution": "2.7K",
+            "max_frame_rate": "120 fps",
+            "lens_mount": "PL",
+            "price": 8999.99
+          }
+      
+]

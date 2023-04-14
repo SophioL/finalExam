@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
