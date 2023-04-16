@@ -44,12 +44,41 @@
             </ul>
         </div>
     </header>
-    <section>
-        <div  id="main1" class="d-flex align-items-center justify-content-center" >
+    <div id="description1">
 
-        </div>
+    </div>
 
-    </section>
-    <script src="./src/script/lenses.js"></script>
+    <script>
+        const description1 = document.getElementById("description1")
+const IMG = localStorage.getItem("lenseImg")
+const title = localStorage.getItem("lenseName")
+const text = localStorage.getItem("lenseText")
+const des = localStorage.getItem("lenseDes")
+const incl = localStorage.getItem("lenseIncl")
+const price = localStorage.getItem("lensePrice")
+
+function showFulllense(){
+    description1.innerHTML = `
+    <div class="container  mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="${IMG}" class="card-img-top" alt="Lense">
+                    <div class="card-body">
+                        <h5 class="card-title">${title}</h5>
+                        <p class="card-text">${text}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">${des}</li>
+                        <li class="list-group-item">${incl}</li>
+                        <li class="list-group-item">${price}</li>
+                    </ul>
+                    <div class="card-body">
+                        <button class="card-link"><img src=./src/images/cart4.svg>&nbsp<small>Price Request</small></button
+                    </div>
+                    </div>
+                </div>
+    `
+}
+showFulllense()
+    </script>
 </body>
 </html>

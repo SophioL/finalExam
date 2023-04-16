@@ -1,13 +1,13 @@
 const getUsers = async () => {
     try {
-        const main = document.getElementById("main");
-        const users = await fetch('./db/cameras.json')
+        const main1 = document.getElementById("main1");
+        const users = await fetch('./db/lenses.json')
         .then(_ => _.json())
         users.forEach(user => {
-            const cameraEl = document.createElement('div');
+            const lenseEl = document.createElement('div');
             //cameraEl.classList.add("")
-            cameraEl.innerHTML = `
-            <a href="./camera.html?${user.id}">
+            lenseEl.innerHTML = `
+            <a href="./lense.html?${user.id}">
                 <div class="container  mt-5">
                     <div class="card" style="width: 18rem;">
                         <img src="${user.image}" class="card-img-top" alt="Arri mini LF">
@@ -23,17 +23,17 @@ const getUsers = async () => {
             </a>
 
             `
-            cameraEl.addEventListener("click" , () => {
-                localStorage.setItem("cameraId" , user.id)
-                localStorage.setItem("cameraImg", user.image)
-                localStorage.setItem("cameraName",user.name)
-                localStorage.setItem("cameraText",user.text)
-                localStorage.setItem("cameraSensor",user.sensor_size)
-                localStorage.setItem("cameraMax",user.max_resolution)
-                localStorage.setItem("cameraPrice",user.price)
+            lenseEl.addEventListener("click" , () => {
+                localStorage.setItem("lenseId" , user.id)
+                localStorage.setItem("lenseImg", user.image)
+                localStorage.setItem("lenseName",user.name)
+                localStorage.setItem("lenseText",user.text)
+                localStorage.setItem("lenseDes",user.description)
+                localStorage.setItem("lenseIncl",user.includes)
+                localStorage.setItem("lensePrice",user.price)
             })
 
-            main.appendChild(cameraEl);
+            main1.appendChild(lenseEl);
         });
     } catch (error) {
         console.log(error)
@@ -41,4 +41,3 @@ const getUsers = async () => {
 }
 
 getUsers();
-

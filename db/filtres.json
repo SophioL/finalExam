@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image" : "./src/images/filtres/1.png",
+        "name": "NiSi Explosion-proof",
+        "text": "Сlear filters coated with a shatterproof film to hold glass splinters together in the event of an impact.",
+        "description": "The NiSi Proof is a clear filters coated with a shatterproof film to hold glass splinters together in the event of an impact.",
+        "price": "PRICE - 99"
+      },
+      {
+        "id": 2,
+        "image" : "./src/images/filtres/2.png",
+        "name": "NiSi Enhance ND-VARIO 5-9 stops",
+        "text": "Variable neutral density filters providing an exposure reduction of 5 to 9 stops.",
+        "description": "The NiSi ND-VARIO Variable 5-9 stops filters are the ideal tool for photographers who want to approach the world of long exposures and for videographers who want to be able to control the light in real-time during shooting.",
+        "price": "PRICE - 99"
+      },
+      {
+        "id": 3,
+        "image" : "./src/images/filtres/3.png",
+        "name": "NiSi Enhance ND-VARIO 1.5-5 stops",
+        "text": "Variable neutral density filters providing an exposure reduction of 1.5 to 5 stops",
+        "description": "The NiSi Enhance ND-VARIO 1.5-5 stops - variable neutral density filters providing an exposure reduction of 1.5 to 5 stops.",
+        "price": "PRICE - 99"
+      },
+      {
+        "id": 4,
+        "image" : "./src/images/filtres/4.png",
+        "name": "Filters for Sony Lenses",
+        "text": "This filters provide everything necessary to get started with filtration for SONY lenses and Zooms",
+        "description": "Filters for Sony Lenses from Hoya & K&F includes Variable Density, FUSION ONE UV, FUSION ONE CIR-PL, UX UV TEK Pol-Circ Slim, Concept ND8-128. This filters provide everything necessary to get started with filtration for SONY lenses.Hoya Variable Density – provides a convenient way to maintain exposure control by being able to vary the amount of light entering the camera by 1.5 to 9 stops.Hoya FUSION ONE – new line-up with the fusion of all highly valued basic specifications, such as multi-layered coating, ultra-high light transmission, high grade optical glass and low-profile frame, while newly incorporating a stain resistant and water repellent coating.Hoya UX UV can suppress the UV spectrum contained in daylight that mainly causes poor effects on the images. This filter can be used with both film and digital cameras, and assures more vivid picture. In addition, by keeping it constantly attached, this filter serve as everyday lens protection.Hoya TEK Pol-Circ Slim designed to adjust brightly reflected light especially sunlight (reflected off of water or snow) and reduce unwanted glare.K&F Concept ND8-128 – reduces the amount of light entering the lens, thus decreasing camera shutter speed. Useful for situations where motion blur needs to be created (rivers, waterfalls, moving people) or large apertures must be used with flash to avoid overexposure.",
+        "price": "PRICE - 299"
+      }
+]
