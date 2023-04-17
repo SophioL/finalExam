@@ -7,19 +7,26 @@ const getUsers = async () => {
             const cameraEl = document.createElement('div');
             //cameraEl.classList.add("")
             cameraEl.innerHTML = `
-            <a href="./camera.html?${user.id}">
-                <div class="container  mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="${user.image}" class="card-img-top" alt="Arri mini LF">
-                    <div class="card-body">
-                        <h5 class="card-title">${user.name}</h5>
-                        <p class="card-text">${user.text}</p>
+            <a href="./camera.html?${user.id}">          
+              <div class="wrapper">
+                    <div class="card">
+                      <div class="top"><img src="${user.image}"></div>
+                      <div class="bottom">
+                          <div class="left">
+                                <div class="details">
+                                  <h4>${user.name}</h4>
+                                  <p>${user.price}</p>
+                                </div>
+                                <div class="buy"><img src="./src/images/cart4.svg"></div>
+                          </div>
+                      </div>
                     </div>
-                    <div class="card-body">
-                        <button class="card-link"><img src=./src/images/cart4.svg>&nbsp<small>Price Request</small></button
+                    <div class="inside">
+                      <div class="text">
+                        <h5>${user.text}</h5>
+                      </div>
                     </div>
-                    </div>
-                </div>
+              </div>
             </a>
 
             `

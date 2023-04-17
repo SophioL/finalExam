@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="./src/style/css/card.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
@@ -16,40 +18,40 @@
                 </a>       
             </div>
         </nav>
-        <div>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./cameras.html">CAMERAS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./lenses.html">LENSES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./accssesories.html">ACSSESORIES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./filtres.html">FILTERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./sounds.html">SOUNDS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./litning.html">LIGHTING</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <img src="./src/images/cart4.svg" alt="cart">
-                    </a>
-                </li>
-            </ul>
+        <div id="sse1">
+            <div id="sses1">
+                <ul>
+                    <li>
+                        <a href="./cameras.html">CAMERAS</a>
+                    </li>
+                    <li>
+                        <a  href="./lenses.html">LENSES</a>
+                    </li>
+                    <li>
+                        <a  href="./accssesories.html">ACSSESORIES</a>
+                    </li>
+                    <li>
+                        <a  href="./filtres.html">FILTERS</a>
+                    </li>
+                    <li>
+                        <a  href="./sounds.html">SOUNDS</a>
+                    </li>
+                    <li>
+                        <a href="./lighting.html">LIGHTING</a>
+                    </li>
+                    <li>
+                        <a  href="#">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
-    <div id="description1">
+    <div id="description">
 
     </div>
-
+    <script src="./src/script/script.js"></script>
     <script>
-        const description1 = document.getElementById("description1")
+        const description = document.getElementById("description")
 const IMG = localStorage.getItem("lenseImg")
 const title = localStorage.getItem("lenseName")
 const text = localStorage.getItem("lenseText")
@@ -58,7 +60,7 @@ const incl = localStorage.getItem("lenseIncl")
 const price = localStorage.getItem("lensePrice")
 
 function showFulllense(){
-    description1.innerHTML = `
+    description.innerHTML = `
     <div class="container  mt-5">
                     <div class="card" style="width: 18rem;">
                         <img src="${IMG}" class="card-img-top" alt="Lense">

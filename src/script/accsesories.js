@@ -1,39 +1,45 @@
 const getUsers = async () => {
     try {
-        const main2 = document.getElementById("main2");
+        const main = document.getElementById("main");
         const users = await fetch('./db/accssesories.json')
         .then(_ => _.json())
         users.forEach(user => {
             const accssesoriesEl = document.createElement('div');
-            //accssesoriesEl.classList.add("")
             accssesoriesEl.innerHTML = `
-            <a href="./accssesories.html?${user.id}">
-                <div class="container  mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="${user.image}" class="card-img-top" alt="Arri mini LF">
-                    <div class="card-body">
-                        <h5 class="card-title">${user.name}</h5>
-                        <p class="card-text">${user.text}</p>
+            <a href="./accssesorie.html?${user.id}">
+                <div class="wrapper">
+                    <div class="card">
+                        <div class="top"><img src="${user.image}"></div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="details">
+                                    <h4>${user.name}</h4>
+                                    <p>${user.price}</p>
+                                </div>
+                                <div class="buy"><img src="./src/images/cart4.svg"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <button class="card-link"><img src=./src/images/cart4.svg>&nbsp<small>Price Request</small></button
-                    </div>
+                    <div class="inside">
+                        <div class="text">
+                        <h5>${user.text}</h5>
+                        </div>
                     </div>
                 </div>
             </a>
 
             `
             accssesoriesEl.addEventListener("click" , () => {
-                localStorage.setItem("accssesoriesId" , user.id)
-                localStorage.setItem("accssesoriesImg", user.image)
-                localStorage.setItem("accssesoriesName",user.name)
-                localStorage.setItem("accssesoriesText",user.text)
-                localStorage.setItem("accssesoriesDes",user.sensor_size)
-                localStorage.setItem("accssesoriesIncl",user.max_resolution)
-                localStorage.setItem("accssesoriesPrice",user.price)
+                localStorage.setItem("accssesorieId" , user.id)
+                localStorage.setItem("accssesorieImg" , user.image)
+                localStorage.setItem("accssesorieName" , user.name)
+                localStorage.setItem("accssesorieText" , user.text)
+                localStorage.setItem("accssesorieDes" , user.description)
+                localStorage.setItem("accssesorieIncl" , user.includes)
+                localStorage.setItem("accssesoriePrice" , user.price)
             })
 
-            main2.appendChild(accssesoriesEl);
+            main.appendChild(accssesoriesEl);
         });
     } catch (error) {
         console.log(error)

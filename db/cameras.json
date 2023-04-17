@@ -6,7 +6,7 @@
             "text": "It combines the compact size and lightweight with the large-format sensor",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
-            "price": "PRICE - 14999.99"
+            "price":  "£14999.99"
           },
           {
             "id": 2,
@@ -15,7 +15,7 @@
             "text": "Digital movie camera powered by a 4.6K Super 35 CMOS sensor.",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
-            "price": 13999.99
+            "price": "£13999.99"
           },
           {
             "id": 3,
@@ -24,7 +24,7 @@
             "text": "Compact and lightweight ARRI ALEXA Mini – versatile in ARRI’s family.",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
-            "price": 11999.99
+            "price": "£11999.99"
           }
 
 ]
