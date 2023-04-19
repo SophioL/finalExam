@@ -2,11 +2,11 @@
     {
         "id": 1,
         "image" : "./src/images/sounds/bd1.png",
-        "name": "1x EW 112 G4 (734-776 MHz) Sennheiser Wireless Bodypack on Camera SET",
+        "name": "Wireless Bodypack on Camera SET",
         "text": "Mobile on-camera system of sound transmission",
         "description": "Mobile on-camera system of sound transmission Sennheiser EW 112. The set of receiver and transmitter with microphone Sanken COS11.",
         "includes": "1 х Bodypack transmitter Sennheiser SK (734-776) | 1 х Wireless Camera-Mount Receiver Sennheiser EK 100 G4 (734-776) | 1 х Sanken COS-11D Omnidirectional Lavalier Microphone (Black / Beige) | 1 х Sanken RM-11 (Black / Beige) | 4 х Battery size AA 2400-2500mah BLI 4 NI-MH | 1 х Battery Charger Powerex MAHA MH-801-E | 1 х Full switching kit",
-        "price": "PRICE - 499"
+        "price": "£499"
       },
       {
         "id": 2,
@@ -15,15 +15,15 @@
         "text": "Mobile kit of sound transmission systems",
         "description": "Mobile kit of sound transmission systems Lectrosonics Boom Set",
         "includes": "1 x Lectrosonics SMDB / E01 transmitter block 26 | 1 x SANKEN COS11DTA5 | 4 х Battery size AA 2400-2500mah BLI 4 NI-MH",
-        "price": "PRICE - 1499"
+        "price": "£1499"
       },
       {
         "id": 2,
         "image" : "./src/images/sounds/recset.png",
-        "name": "4x Actors Sound Recording SET (ZOOM F8, Sennheiser EW 512P G4)",
+        "name": "4x Actors Sound Recording SET",
         "text": "4x Actors Sound Recording SET",
         "description": "4x Actors Sound Recording SET with ZOOM F8 8-channel/10-track field audio recorder/mixer and Sennheiser EW 512P G4 camera-mount wireless lavalier microphone system. Ideal solution for professional recording applications on set and in the field, including music, streaming, live events and filmmaking.",
         "includes": "1 x Recorder ZOOM F8 Multi-Track | 4 x EW 512P G4 (558-626 MHz) Sennheiser Wireless Bodypack MOBILE SET | 1 x Sound Boom Sennheiser 416 KIT | 3 x Diversity receiver Sennheiser EK 500 G4 IEM (566-608MHz) | 3 x Headphone Beyerdynamic DT-770 PRO | 2 x EW 112 G4 (734-776 MHz) Sennheiser Wireless Bodypack on Camera SET",
-        "price": "PRICE - 4499"
+        "price": "£4499"
       }
 ]

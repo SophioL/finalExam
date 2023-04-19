@@ -5,7 +5,7 @@
         "name": "ARRI Daylight 18/12",
         "text": "Lightweight, compact and bright 18000W/12000W daylight fresnel HMI light",
         "description": "ARRI Daylight 180/120 Fresnel is the lightweight Fresnel spotlight with high efficiency, daylight characteristics and modular construction. ARRI elegant modular construction, using corrosion-resistant aluminium extrusions and lightweight die castings, offers great structural strength and weather resistance.",
-        "price": "PRICE - 4499"
+        "price": "£4499"
       },
       {
         "id": 2,
@@ -13,7 +13,7 @@
         "name": "ARRI M90/60",
         "text": "Compact and powerful lighting fixture with a maximum power of 9000W",
         "description": "To fill the gap between the M40.25 and the ARRIMAX 18/12 ARRI introduced the 9,000W M90 HMI Head. They’ve put it together with a 6/9K high speed ballast specially made for it with this M90 9000W HMI High Speed Kit. Osram has created a 9K lamp for this power class that is nearly the same size as the 6K version allowing use of either lamp in the MAX Technology reflector and with the ballast. The highly stable 9K lamp is perfectly suited for high speed use up to 1,000 frames per second.",
-        "price": "PRICE - 99"
+        "price": "£99"
       },
       {
         "id": 3,
@@ -21,7 +21,7 @@
         "name": "DINO Light 16K PAR64x16",
         "text": "16 kilowatts lamp for 16 burners at 1000 watts",
         "description": "In early years the whole lamps were manufactured in steel zinc coated and they had an small brake. The ring of the burner had four knurled nut, to put the burner outside. Now A.F.Z. produce all lamps only in stainless steel, with a big brake and you can put a burner outside if you remove only one knurled nut.",
-        "price": "PRICE - 99"
+        "price": "£99"
       },
       {
         "id": 4,
@@ -29,6 +29,6 @@
         "name": "KinoFlo Blanket-Lite 6×6 DMX",
         "text": "Lighting device with fluorescent lamps",
         "description": "The Blanket-Lite 6×6 consists of sixteen 6ft high output lamps powered by four Mega Dmx 4Bank ballasts. Lamps are spaced along two ratchet straps on 4 ½ inch centers. The Blanket-Lite mounts onto a 6×6 pipe frame and works by itself or in conjunction with diffusion materials or silver reflector.",
-        "price": "PRICE - 99"
+        "price": "£99"
       }
 ]

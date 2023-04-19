@@ -7,13 +7,14 @@ const getUsers = async () => {
             const lightingEl = document.createElement('div');
             lightingEl.innerHTML = `
             <a href="./lighting2.html?${user.id}">
+            <div class="container">
             <div class="wrapper">
                 <div class="card">
                     <div class="top"><img src="${user.image}"></div>
                     <div class="bottom">
                         <div class="left">
                             <div class="details">
-                                <h4>${user.name}</h4>
+                                <h4><strong>${user.name}</strong></h4>
                                 <p>${user.price}</p>
                             </div>
                             <div class="buy"><img src="./src/images/cart4.svg"></div>
@@ -25,6 +26,7 @@ const getUsers = async () => {
                     <h5>${user.text}</h5>
                     </div>
                 </div>
+            </div>
             </div>
             </a>
 

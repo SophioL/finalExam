@@ -1,3 +1,4 @@
+// header //
 var sse1 = function () {
     var rebound = 20; 
     var slip, k;
@@ -139,3 +140,34 @@ else {
     window["onload"] = sse1.buildMenu;
 }
 
+// slide //
+
+const slider = document.querySelector('.slider');
+const slides = slider.querySelectorAll('.slide');
+const radioButtons = slider.querySelectorAll('[name="radio-btn"]');
+let currentSlide = 0;
+
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    radioButtons[currentSlide].checked = false;
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+    radioButtons[currentSlide].checked = true;
+}
+
+function nextSlide() {
+    showSlide(currentSlide + 1);
+}
+
+setInterval(nextSlide, 3000);
+
+// shop //
+function clickCounter() {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 0;
+    }
+    document.getElementById("shop").innerHTML = localStorage.clickcount;
+  }
+  

@@ -6,7 +6,7 @@
     "text": "IPS On-Camera monitor with L-Series type plate",
     "description": "TVLogic's F-5A 5.5* IPS ON-Camera Monitor with L-Series Type Plate offers cinematic image quality in a sleek, compact form suitable for use as an EVF or onboard camera monitor.",
     "includes": "1 xnTV Logic F-5A-AG Monitor, 1 x Case, 2 x Battery",
-    "price": "PRICE - 399"
+    "price": "£399"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "text": "Reliable monitor with a resolution of 1920×1080.",
     "description": "TCLogic LVM-323W-3G (LVM323W3G) 32-inch HD Multi-Format Broadcast 3G LCD Monitor. Support TVLogic Color Calibration Utility for proper color aligment.",
     "includes": "1 x Monitor 32 ' TVLogic HDLCD LVM-323W-3G",
-    "price": "PRICE - 499"
+    "price": "£499"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "text": "6×6″, 4 filters, 19mm rods",
     "description": "This Arri MB-14 Matte Box Set For 19mm Rods is the basic kit 6.6x6.6 for 19mm rod system. The MB-14 matte box will connect to virtually any sized lens with the use of filter and adapter rings.",
     "includes": "1 x Case Matte Box 6x6 ARRI",
-    "price": "PRICE - 299"
+    "price": "£299"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "text": "Professional camera rig that is mounted directly to the actor’s body",
     "description": "Camera Body Mount - camera rig that is mounted directly to the actor's body. This body-mount system keeps the actor perfectly centered in the frame while the rest of the worlld changes with their natural movement.",
     "includes": "1 x Body Mount Vest",
-    "price": "PRICE - 1199"
+    "price": "£1199"
   },
   {
     "id": 5,
@@ -42,16 +42,16 @@
     "text": "Professional helmet rig that allows film makers to shoot immersive POV content.",
     "description": "The POV Helmet Rig is a professional helmet rig that allow film makers to shoot immersive POV content with professional cameras.",
     "includes": "1 x POV helmet rig",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 6,
     "image" : "./src/images/accssesories/screenshot3.png",
-    "name": "Sachtler aktiv10 flowtech 100 MS Tripod System",
+    "name": "Sachtler flowtech Tripod System",
     "text": "Perfect choice for professional medium-sized camcorders and digital cine cameras set ups of up to 12 kg",
     "description": " the aktiv 10 flowtech 100 MS Tripod System from Sachtler pairs the activ 10 fluid head with the lightweight, carbon fiber flowtech 100MS tripod with mid-level spreader.",
     "includes": "1 x Head 100mm Sachter Aktiv 10 ",
-    "price": "PRICE - 699"
+    "price": "£699"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "text": "Provides very stable and smooth shooting.",
     "description": "The Ultimate 1030D and 1030Ds heads offer a wealth of features that have been borrowed from the large OConnor 2575 and 2065 heads.",
     "includes": "1 x Head O'Connor 1030D/1030DS KIT",
-    "price": "PRICE - 6799"
+    "price": "£6799"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "text": "It is the most versatile System for rigging a camera on any flat surface especially cars",
     "description": "The GripKit is the most versatile System for rigging a camera on any flat surface especially cars.",
     "includes": "2 x AirRig 3 -3 point vacum plate | 1x AirRig 2 -2 point vacum plate | 3 x VariClamp ",
-    "price": "PRICE - 1599"
+    "price": "£1599"
   }
 
 ]

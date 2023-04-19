@@ -32,11 +32,12 @@
   margin: 0;
   padding: 0;
   -webkit-text-fill-color: black;
-  font-size: 20px;
+  font-size: 13px;
 }
 .wrapper .card .bottom p {
   margin: 0;
-  padding-top: 4px;
+  font-size: 13px;
+  
   -webkit-text-fill-color: black;
 }
 .wrapper .card .bottom .left {
@@ -114,11 +115,6 @@
   top: 0;
   border-radius: 0;
   height: 80%;
-}
-.wrapper .inside:hover .icon {
-  opacity: 0;
-  right: 15px;
-  top: 15px;
 }
 .wrapper .inside:hover .text {
   opacity: 1;

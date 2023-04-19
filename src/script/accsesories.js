@@ -13,7 +13,7 @@ const getUsers = async () => {
                         <div class="bottom">
                             <div class="left">
                                 <div class="details">
-                                    <h4>${user.name}</h4>
+                                    <h4><strong>${user.name}</strong></h4>
                                     <p>${user.price}</p>
                                 </div>
                                 <div class="buy"><img src="./src/images/cart4.svg"></div>

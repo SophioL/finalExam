@@ -10,11 +10,15 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="">
+        <nav class="main-nav">
+            <div>
                 <a href="./index.html">
                     <img src="./src/images/logo.png" alt="Rental Logo" class="logo">
                 </a>       
+            </div>
+            <div  class="shops">
+                <img src="./src/images/cart4.svg">
+                <p id="shop" class="padding_top">(0)</p>
             </div>
         </nav>
         <div id="sse1">
@@ -38,9 +42,6 @@
                     <li>
                         <a href="./lighting.html">LIGHTING</a>
                     </li>
-                    <li>
-                        <a  href="#">CONTACTS</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -60,23 +61,26 @@
 
 function showFullaccssesorie(){
     description.innerHTML = `
-    <div class="container  mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="${IMG}" class="card-img-top" alt="accssesorie">
-                    <div class="card-body">
-                        <h5 class="card-title">${title}</h5>
-                        <p class="card-text">${text}</p>
+    <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <img src="${IMG}" class="main_img" alt="Arri mini LF">
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">${des}</li>
-                        <li class="list-group-item">${incl}</li>
-                        <li class="list-group-item">${price}</li>
-                    </ul>
-                    <div class="card-body">
-                        <button class="card-link"><img src=./src/images/cart4.svg>&nbsp<small>Price Request</small></button
+                    <div class="col-6 padding_top">
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item"><h5>${title}</h5></li>
+                            <li class="list-group-item"><p>${des}</p></li>
+                            <li class="list-group-item">${incl}</li>
+                            <li class="list-group-item">${price}</li>
+                        </ul>
+                        <div class="card-body">
+
+                            <button onclick=clickCounter()>Price Request<img class="cart_icon" src=./src/images/cart4.svg></button
+                        </div>
                     </div>
-                    </div>
-                </div>
+                </div> 
+            </div>
     `
 }
 showFullaccssesorie()

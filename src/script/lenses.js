@@ -7,25 +7,31 @@ const getUsers = async () => {
             const lenseEl = document.createElement('div');
             lenseEl.innerHTML = `
             <a href="./lense.html?${user.id}">
-            <div class="wrapper">
-                <div class="card">
-                    <div class="top"><img src="${user.image}"></div>
-                    <div class="bottom">
-                        <div class="left">
-                            <div class="details">
-                                <h4>${user.name}</h4>
-                                <p>${user.price}</p>
+            
+                        <div class="wrapper">
+                            <div class="card">
+                                <div class="top"><img src="${user.image}"></div>
+                                <div class="bottom">
+                                    <div class="left">
+                                        <div class="details">
+                                            <h4><strong>${user.name}</strong></h4>
+                                            <p>${user.price}</p>
+                                        </div>
+                                        <div class="buy"><img src="./src/images/cart4.svg"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="buy"><img src="./src/images/cart4.svg"></div>
+                            <div class="inside">
+                                <div class="text">
+                                <h5>${user.text}</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="inside">
-                    <div class="text">
-                    <h5>${user.text}</h5>
-                    </div>
-                </div>
-            </div>
+                
+            
+
             </a>
 
             `

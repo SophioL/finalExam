@@ -6,6 +6,7 @@
             "text": "It combines the compact size and lightweight with the large-format sensor",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
+            "description": "Built around a large-format 4K version of the original ALEXA sensor, the ARRI ALEXA Mini LF camera offers native 4K recording in three sensor modes, with ARRIRAW or ProRes recording in LF Open Gate, LF 16:9, or LF 2.39:1 mode. ALEXA Mini LF combines large-format resolution with an optimal pixel size for excellent image quality producing vivid, nuanced images with natural skin tones and smooth bokeh. ALEXA Mini LF is designed for use with ARRI’s LPL lens mount, available separately, which has been optimized for large-format capture and is compatible with all PL-mount lenses with the use of a separately available PL-to-LPL adapter.",
             "price":  "£14999.99"
           },
           {
@@ -15,6 +16,7 @@
             "text": "Digital movie camera powered by a 4.6K Super 35 CMOS sensor.",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
+            "description": "Compared with the previous model, Blackmagic URSA Mini Pro 4.6K G2 camera has many additional features. For example, Super 35 can shoot at 4.6K with a sensitivity of 3200 ISO, a dynamic range of 15 steps and a frequency of up to 300 frames per second",
             "price": "£13999.99"
           },
           {
@@ -24,6 +26,7 @@
             "text": "Compact and lightweight ARRI ALEXA Mini – versatile in ARRI’s family.",
             "sensor_size": "SUPER 35",
             "max_resolution": "2.7K",
+            "description": "ALEXA Mini is a 35mm digital camera with a light and compact carbon body, with a choice of the 4:3/16:9 sensor area, ARRI MVF-1 viewfinder support, built-in remote control via ARRI and Wi-Fi electronic control system, support for cforce engines , built-in motorized ND filters, interchangeable lens mounts and ARRI lens data system.",
             "price": "£11999.99"
           }
 

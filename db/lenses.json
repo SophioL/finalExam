@@ -2,56 +2,56 @@
     {
     "id": 1,
     "image" : "./src/images/lense/18.png",
-    "name": "18mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 18mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 18mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 2,
     "image" : "./src/images/lense/25.1.png",
-    "name": "25mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 25mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 25mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 3,
     "image" : "./src/images/lense/35.1.png",
-    "name": "35mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens ",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 35mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 35mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 4,
     "image" : "./src/images/lense/50.1.png",
-    "name": "50mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens ",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 50mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 50mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 5,
     "image" : "./src/images/lense/85.1.png",
-    "name": "85mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 85mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 85mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   },
   {
     "id": 6,
     "image" : "./src/images/lense/105.1.png",
-    "name": "105mm Tokina Cinema Vista Prime Lens T1.5",
+    "name": "Tokina Cinema Vista Prime Lens ",
     "text": "Super High-Speed Cine Lens with more than Full Frame coverage, PL-Mount.",
     "description": "Tokina 105mm T1.5 Cinema Vista Prime Lens with a PL mount provides an image circle that more than covers full-frame sensors and is designed to provide sharp images even when recording images at 8K resolution",
     "includes": "1 x 105mm Tokina Visita Cinema Prime Lens T1.5 FF, PL-Mount",
-    "price": "PRICE - 599"
+    "price": "£599"
   }
 
 ]
