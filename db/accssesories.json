@@ -2,7 +2,7 @@
     {
     "id": 1,
     "image" : "./src/images/accssesories/camera_monitor.png",
-    "name": "Monitor OnCamera 5.5'TV Logic F-5A-AG+battery",
+    "name": "Monitor OnCamera Logic F-5A-AG",
     "text": "IPS On-Camera monitor with L-Series type plate",
     "description": "TVLogic's F-5A 5.5* IPS ON-Camera Monitor with L-Series Type Plate offers cinematic image quality in a sleek, compact form suitable for use as an EVF or onboard camera monitor.",
     "includes": "1 xnTV Logic F-5A-AG Monitor, 1 x Case, 2 x Battery",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "image" : "./src/images/accssesories/monitor.png",
-    "name": "Monitor 32″ TV Logic HDLCD LVM-323W-3G",
+    "name": "Monitor 32″ TV Logic HDLCD",
     "text": "Reliable monitor with a resolution of 1920×1080.",
     "description": "TCLogic LVM-323W-3G (LVM323W3G) 32-inch HD Multi-Format Broadcast 3G LCD Monitor. Support TVLogic Color Calibration Utility for proper color aligment.",
     "includes": "1 x Monitor 32 ' TVLogic HDLCD LVM-323W-3G",
