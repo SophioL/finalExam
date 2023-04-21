@@ -230,6 +230,11 @@ button:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px;
 }
+.topnav #myLinks {
+    display: none;
+}
+
+
 
 
 
@@ -254,7 +259,7 @@ button:hover{
         height: 60px;
     }
     #sse1{
-        height: 50px;
+        height: 60px;
     }
     .cont-footer{
         padding: 0;
@@ -270,6 +275,8 @@ button:hover{
         width: 458px;
         height: 490px;
     }
+    /* burger menu */
+    
 
 }
 
